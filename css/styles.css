@@ -1,3 +1,4 @@
+/* Universal CSS */
 *{
     margin: 0;
     padding: 0;
@@ -12,3 +13,50 @@ body{
     text-align: center;
 }
 
+/* Header/Nav */
+header{
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo{
+    margin-left: 10px;
+}
+
+nav{
+    margin-right: 10px;
+}
+
+nav a{
+    margin-left: 15px;
+}
+
+/* Banner */
+.banner{
+    background-image: url(/images/img-mission-background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 94%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+    width: 100%;
+    background-color: black;
+}
+
+.banner h2{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.banner h4{
+    margin-bottom: 10px;
+}
